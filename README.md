@@ -13,6 +13,7 @@ Features
   * `\deen{$WORD}` = from german to english
   * `\ende{$WORD}` = from english to german
   * `\svpt{$WORD}` = from swedish to portuguese
+  ![Translation from english to swedish](https://github.com/Kopetri/dictator/raw/master/screenshots/englishToSwedish.gif)
 * Available languages:
   * english [en]
   * german [de]
@@ -26,4 +27,3 @@ Features
   * russian [ru]
 
   ![Translation from german to english](https://github.com/Kopetri/dictator/raw/master/screenshots/germanToEnglish.gif)
-  ![Translation from english to swedish](https://github.com/Kopetri/dictator/raw/master/screenshots/englishToSwedish.gif)
