@@ -32,7 +32,6 @@ module.exports =
       return null unless a?.length == b?.length
       c = []
       a.forEach((elem,index,array)=>
-        #c.push(elem+" - "+b[index])
         c.push({
           in: elem,
           out: b[index]

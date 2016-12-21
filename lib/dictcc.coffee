@@ -17,7 +17,7 @@ class Dict
       "pt": "portuguese",
       "ru": "russian"
     }
-
+    
     @keyword_regex = new RegExp("\\\\w*("+@getKeywords()+")({|{[^}]+,)([a-zA-Z]+)(}|[^}]}+,)$","g")
     @dictatorView = new DictatorView(@onTranslationSelected);
     @parser = new Parser(@dictatorView.updateItems);
