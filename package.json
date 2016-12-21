@@ -1,9 +1,14 @@
 {
   "name": "dictator",
   "main": "./lib/dictator",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "small dictionary that helps you to translate words without tabing out from atom to your web browser to use dict.cc",
-  "keywords": ["dictator", "translate", "dict.cc", "dictionary", "translation"
+  "keywords": [
+    "dictator",
+    "translate",
+    "dict.cc",
+    "dictionary",
+    "translation"
   ],
   "activationCommands": {
     "atom-workspace": "dictator:toggle"
