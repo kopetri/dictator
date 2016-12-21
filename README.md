@@ -8,9 +8,12 @@ Features
 --------
 
 ### Translation rules
-
-  ![Translation from english to swedish](https://github.com/Kopetri/dictator/raw/master/screenshots/englishToSwedish.gif)
-Available languages:
+* Parameters:
+  * the keyword for triggering a translation is form like so:
+  * `\deen{$WORD}` = from german to english
+  * `\ende{$WORD}` = from english to german
+  * `\svpt{$WORD}` = from swedish to portuguese
+* Available languages:
   * english [en]
   * german [de]
   * french [fr]
@@ -21,10 +24,6 @@ Available languages:
   * italian [it]
   * portuguese [pt]
   * russian [ru]
-Parameters:
-  * the keyword for triggering a translation is form like so:
-  * `\deen{$WORD}` = from german to english
-  * `\ende{$WORD}` = from english to german
-  * `\svpt{$WORD}` = from swedish to portuguese
-  * ...
+
   ![Translation from german to english](https://github.com/Kopetri/dictator/raw/master/screenshots/germanToEnglish.gif)
+  ![Translation from english to swedish](https://github.com/Kopetri/dictator/raw/master/screenshots/englishToSwedish.gif)
