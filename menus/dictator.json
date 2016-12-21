@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle dictator",
+        "command": "dictator:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dictator",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "dictator:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
